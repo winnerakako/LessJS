@@ -1,18 +1,21 @@
-import { Express } from "express";
-import { LessConfig } from "../../less-config";
-import { SetupRoutes } from "./route";
-import { UnhandledExceptionMiddleware } from "../middlewares/global-error-middlewares";
-import { NotFoundErrorMiddleware } from "../middlewares/global-error-middlewares";
-import { GlobalErrorMiddleware } from "../middlewares/global-error-middlewares";
+import { Express } from 'express';
+import { LessConfig } from '../../less-config';
+import {
+  GlobalErrorMiddleware,
+  NotFoundErrorMiddleware,
+  UnhandledExceptionMiddleware,
+} from '../middlewares/global-error-middlewares';
+import { SecurityMiddlewares } from '../middlewares/security-middlewares';
+import { SetupRoutes } from './route';
 
 export const Bootstrap = async (app: Express) => {
-  console.log("Bootstrap");
+  console.log('Bootstrap');
 
   // Trust proxy
-  app.set("trust proxy", 1);
+  app.set('trust proxy', 1);
 
   // security middlewares
-
+  SecurityMiddlewares(app);
   // Global Unhandled Exception Handlers
   UnhandledExceptionMiddleware();
 

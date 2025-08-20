@@ -1,13 +1,13 @@
-import { Router, Request, Response, NextFunction } from "express";
-import { LessTryCatch } from "../common/less-try-catch";
-import { LessResponse } from "../common/less-response";
-import { LessError } from "../common/less-error";
+import { NextFunction, Request, Response, Router } from 'express';
+import { LessError } from '../common/less-error';
+import { LessResponse } from '../common/less-response';
+import { LessTryCatch } from '../common/less-try-catch';
 
 // Enhanced controller types
 type ControllerHandler = (
   req: Request,
   res: Response,
-  next?: NextFunction | Function
+  next?: NextFunction
 ) => any;
 
 type Middleware = (req: Request, res: Response, next: NextFunction) => void;
@@ -31,14 +31,14 @@ export const SmartController = (
     if (!statusCode) {
       const method = req.method.toLowerCase();
       switch (method) {
-        case "post":
+        case 'post':
           statusCode = 201; // Created
           break;
-        case "put":
-        case "patch":
+        case 'put':
+        case 'patch':
           statusCode = 200; // OK
           break;
-        case "delete":
+        case 'delete':
           statusCode = 204; // No Content
           break;
         default:
@@ -47,14 +47,14 @@ export const SmartController = (
     }
 
     // If handler returns null/undefined for DELETE, use 204 with no content
-    if (req.method.toLowerCase() === "delete" && !responseData) {
+    if (req.method.toLowerCase() === 'delete' && !responseData) {
       return res.status(204).send();
     }
 
     // Auto-add success message if not present
     if (
       responseData &&
-      typeof responseData === "object" &&
+      typeof responseData === 'object' &&
       !responseData.message &&
       options.successMessage
     ) {
@@ -90,28 +90,28 @@ export const Created = (data: any, message?: string) => ({ message, ...data });
 export const NoContent = () => null;
 
 // Quick error throwers
-export const NotFound = (message = "Resource not found") => {
+export const NotFound = (message = 'Resource not found') => {
   throw LessError.notFound(message);
 };
 
-export const BadRequest = (message = "Bad request") => {
+export const BadRequest = (message = 'Bad request') => {
   throw LessError.badRequest(message);
 };
 
-export const Unauthorized = (message = "Unauthorized") => {
+export const Unauthorized = (message = 'Unauthorized') => {
   throw LessError.unauthorized(message);
 };
 
-export const Forbidden = (message = "Forbidden") => {
+export const Forbidden = (message = 'Forbidden') => {
   throw LessError.forbidden(message);
 };
 
-export const Conflict = (message = "Conflict") => {
+export const Conflict = (message = 'Conflict') => {
   throw LessError.conflict(message);
 };
 
 export const UnprocessableEntity = (
-  message = "Unprocessable entity",
+  message = 'Unprocessable entity',
   data?: any
 ) => {
   throw LessError.unprocessableEntity(message, data);
@@ -187,29 +187,29 @@ export const routes = (routeDefinitions: Record<string, ControllerHandler>) => {
   const simpleRouter = new SimpleRouter();
 
   Object.entries(routeDefinitions).forEach(([key, handler]) => {
-    const [method, path] = key.split(" ");
+    const [method, path] = key.split(' ');
     const httpMethod = method.toLowerCase() as
-      | "get"
-      | "post"
-      | "put"
-      | "patch"
-      | "delete";
+      | 'get'
+      | 'post'
+      | 'put'
+      | 'patch'
+      | 'delete';
 
     // Directly call the appropriate method on SimpleRouter
     switch (httpMethod) {
-      case "get":
+      case 'get':
         simpleRouter.get(path, handler);
         break;
-      case "post":
+      case 'post':
         simpleRouter.post(path, handler);
         break;
-      case "put":
+      case 'put':
         simpleRouter.put(path, handler);
         break;
-      case "patch":
+      case 'patch':
         simpleRouter.patch(path, handler);
         break;
-      case "delete":
+      case 'delete':
         simpleRouter.delete(path, handler);
         break;
     }
@@ -224,7 +224,7 @@ export const Controller = (
   handlerOrOptions?: ControllerHandler | ControllerOptions
 ) => {
   // Legacy support: Controller(statusCode, handler)
-  if (typeof handlerOrStatusCode === "number") {
+  if (typeof handlerOrStatusCode === 'number') {
     const statusCode = handlerOrStatusCode;
     const handler = handlerOrOptions as ControllerHandler;
     return SmartController(handler, { statusCode });

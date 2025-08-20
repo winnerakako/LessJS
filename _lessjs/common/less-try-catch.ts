@@ -1,7 +1,7 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction } from 'express';
 
-import { ThrowException } from "./less-error";
-import { LessResponse } from "./less-response";
+import { ThrowException } from './less-error';
+import { LessResponse } from './less-response';
 
 // Async Error Handler Middleware with TypeScript types
 export const LessTryCatch = (

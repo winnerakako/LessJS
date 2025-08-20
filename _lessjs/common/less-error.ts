@@ -16,11 +16,11 @@ export class ThrowException extends Error {
     this.statusCode = statusCode;
     // Set status based on status code range
     if (statusCode >= 400 && statusCode < 500) {
-      this.status = "failed";
+      this.status = 'failed';
     } else if (statusCode >= 500) {
-      this.status = "error";
+      this.status = 'error';
     } else {
-      this.status = "success";
+      this.status = 'success';
     }
     if (data) this.data = data;
     if (errorCode) this.errorCode = errorCode;
@@ -32,48 +32,48 @@ export class ThrowException extends Error {
 // Error codes enum
 export enum ErrorCode {
   // HTTP errors
-  BAD_REQUEST = "BAD_REQUEST",
-  UNAUTHORIZED = "UNAUTHORIZED",
-  FORBIDDEN = "FORBIDDEN",
-  NOT_FOUND = "NOT_FOUND",
-  METHOD_NOT_ALLOWED = "METHOD_NOT_ALLOWED",
-  NOT_ACCEPTABLE = "NOT_ACCEPTABLE",
-  REQUEST_TIMEOUT = "REQUEST_TIMEOUT",
-  CONFLICT = "CONFLICT",
-  GONE = "GONE",
-  HTTP_VERSION_NOT_SUPPORTED = "HTTP_VERSION_NOT_SUPPORTED",
-  PAYLOAD_TOO_LARGE = "PAYLOAD_TOO_LARGE",
-  UNSUPPORTED_MEDIA_TYPE = "UNSUPPORTED_MEDIA_TYPE",
-  UNPROCESSABLE_ENTITY = "UNPROCESSABLE_ENTITY",
-  INTERNAL_SERVER_ERROR = "INTERNAL_SERVER_ERROR",
-  NOT_IMPLEMENTED = "NOT_IMPLEMENTED",
-  BAD_GATEWAY = "BAD_GATEWAY",
-  SERVICE_UNAVAILABLE = "SERVICE_UNAVAILABLE",
-  GATEWAY_TIMEOUT = "GATEWAY_TIMEOUT",
-  PRECONDITION_FAILED = "PRECONDITION_FAILED",
+  BAD_REQUEST = 'BAD_REQUEST',
+  UNAUTHORIZED = 'UNAUTHORIZED',
+  FORBIDDEN = 'FORBIDDEN',
+  NOT_FOUND = 'NOT_FOUND',
+  METHOD_NOT_ALLOWED = 'METHOD_NOT_ALLOWED',
+  NOT_ACCEPTABLE = 'NOT_ACCEPTABLE',
+  REQUEST_TIMEOUT = 'REQUEST_TIMEOUT',
+  CONFLICT = 'CONFLICT',
+  GONE = 'GONE',
+  HTTP_VERSION_NOT_SUPPORTED = 'HTTP_VERSION_NOT_SUPPORTED',
+  PAYLOAD_TOO_LARGE = 'PAYLOAD_TOO_LARGE',
+  UNSUPPORTED_MEDIA_TYPE = 'UNSUPPORTED_MEDIA_TYPE',
+  UNPROCESSABLE_ENTITY = 'UNPROCESSABLE_ENTITY',
+  INTERNAL_SERVER_ERROR = 'INTERNAL_SERVER_ERROR',
+  NOT_IMPLEMENTED = 'NOT_IMPLEMENTED',
+  BAD_GATEWAY = 'BAD_GATEWAY',
+  SERVICE_UNAVAILABLE = 'SERVICE_UNAVAILABLE',
+  GATEWAY_TIMEOUT = 'GATEWAY_TIMEOUT',
+  PRECONDITION_FAILED = 'PRECONDITION_FAILED',
 }
 
 // Predefined error messages - internal only
 const ErrorMessages = {
-  [ErrorCode.BAD_REQUEST]: "Bad Request",
-  [ErrorCode.UNAUTHORIZED]: "Unauthorized",
-  [ErrorCode.FORBIDDEN]: "Forbidden",
-  [ErrorCode.NOT_FOUND]: "Not Found",
-  [ErrorCode.METHOD_NOT_ALLOWED]: "Method Not Allowed",
-  [ErrorCode.NOT_ACCEPTABLE]: "Not Acceptable",
-  [ErrorCode.REQUEST_TIMEOUT]: "Request Timeout",
-  [ErrorCode.CONFLICT]: "Conflict",
-  [ErrorCode.GONE]: "Gone",
-  [ErrorCode.HTTP_VERSION_NOT_SUPPORTED]: "HTTP Version Not Supported",
-  [ErrorCode.PAYLOAD_TOO_LARGE]: "Payload Too Large",
-  [ErrorCode.UNSUPPORTED_MEDIA_TYPE]: "Unsupported Media Type",
-  [ErrorCode.UNPROCESSABLE_ENTITY]: "Unprocessable Entity",
-  [ErrorCode.INTERNAL_SERVER_ERROR]: "Internal Server Error",
-  [ErrorCode.NOT_IMPLEMENTED]: "Not Implemented",
-  [ErrorCode.BAD_GATEWAY]: "Bad Gateway",
-  [ErrorCode.SERVICE_UNAVAILABLE]: "Service Unavailable",
-  [ErrorCode.GATEWAY_TIMEOUT]: "Gateway Timeout",
-  [ErrorCode.PRECONDITION_FAILED]: "Precondition Failed",
+  [ErrorCode.BAD_REQUEST]: 'Bad Request',
+  [ErrorCode.UNAUTHORIZED]: 'Unauthorized',
+  [ErrorCode.FORBIDDEN]: 'Forbidden',
+  [ErrorCode.NOT_FOUND]: 'Not Found',
+  [ErrorCode.METHOD_NOT_ALLOWED]: 'Method Not Allowed',
+  [ErrorCode.NOT_ACCEPTABLE]: 'Not Acceptable',
+  [ErrorCode.REQUEST_TIMEOUT]: 'Request Timeout',
+  [ErrorCode.CONFLICT]: 'Conflict',
+  [ErrorCode.GONE]: 'Gone',
+  [ErrorCode.HTTP_VERSION_NOT_SUPPORTED]: 'HTTP Version Not Supported',
+  [ErrorCode.PAYLOAD_TOO_LARGE]: 'Payload Too Large',
+  [ErrorCode.UNSUPPORTED_MEDIA_TYPE]: 'Unsupported Media Type',
+  [ErrorCode.UNPROCESSABLE_ENTITY]: 'Unprocessable Entity',
+  [ErrorCode.INTERNAL_SERVER_ERROR]: 'Internal Server Error',
+  [ErrorCode.NOT_IMPLEMENTED]: 'Not Implemented',
+  [ErrorCode.BAD_GATEWAY]: 'Bad Gateway',
+  [ErrorCode.SERVICE_UNAVAILABLE]: 'Service Unavailable',
+  [ErrorCode.GATEWAY_TIMEOUT]: 'Gateway Timeout',
+  [ErrorCode.PRECONDITION_FAILED]: 'Precondition Failed',
 };
 
 // HTTP status codes mapping - internal only
@@ -280,7 +280,7 @@ export class LessError {
     data?: any,
     errorCode?: string
   ) {
-    console.log("CUSTOM ERROR", message, statusCode);
+    console.log('CUSTOM ERROR', message, statusCode);
     return new ThrowException(message, statusCode, data, errorCode);
   }
 }

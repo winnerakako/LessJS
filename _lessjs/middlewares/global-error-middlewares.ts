@@ -1,14 +1,14 @@
-import { LessError, ThrowException } from "../common/less-error";
-import { LessResponse } from "../common/less-response";
+import { LessError, ThrowException } from '../common/less-error';
+import { LessResponse } from '../common/less-response';
 
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction } from 'express';
 // import { processMongoDBError } from "./mongodb-errors-handler";
 
 // NODE UNHANDLED ERRORS
 export const UnhandledExceptionMiddleware = (): void => {
   // Uncaught Exception
-  process.on("uncaughtException", (error: Error) => {
-    console.error("Uncaught Exception:", error.message);
+  process.on('uncaughtException', (error: Error) => {
+    console.error('Uncaught Exception:', error.message);
     console.error(error.stack);
 
     // Log to monitoring service if you have one
@@ -19,13 +19,13 @@ export const UnhandledExceptionMiddleware = (): void => {
       // You could add recovery logic here
       // For example, reconnecting to databases, clearing caches, etc.
     } catch (recoveryError) {
-      console.error("Recovery failed:", recoveryError);
+      console.error('Recovery failed:', recoveryError);
     }
   });
 
   // Unhandled Rejection
   process.on(
-    "unhandledRejection",
+    'unhandledRejection',
     (reason: unknown, promise: Promise<unknown>) => {
       // console.error("Unhandled Rejection:", reason?.message);
 
@@ -35,58 +35,58 @@ export const UnhandledExceptionMiddleware = (): void => {
       console.error(error.stack);
 
       // Log the promise that caused the rejection
-      console.error("Promise:", promise);
+      console.error('Promise:', promise);
 
       // Attempt to recover
       try {
         // You could add recovery logic here
         // For example, reconnecting to databases, clearing caches, etc.
       } catch (recoveryError) {
-        console.error("Recovery failed:", recoveryError);
+        console.error('Recovery failed:', recoveryError);
       }
     }
   );
 
   // Handle worker errors in cluster mode
   if (process.env.WORKER_ROLE) {
-    process.on("error", (error: Error) => {
-      console.error("Worker Error:", error.message);
+    process.on('error', (error: Error) => {
+      console.error('Worker Error:', error.message);
       console.error(error.stack);
       // Don't exit, let the cluster manager handle worker restarts
     });
   }
 
   // Handle MongoDB connection errors
-  process.on("MongoError", (error: Error) => {
-    console.error("MongoDB Error:", error.message);
+  process.on('MongoError', (error: Error) => {
+    console.error('MongoDB Error:', error.message);
     console.error(error.stack);
     // Don't exit, let the connection retry logic handle it
   });
 
   // Handle process warnings
-  process.on("warning", (warning: Error) => {
-    console.warn("Process Warning:", warning.message);
+  process.on('warning', (warning: Error) => {
+    console.warn('Process Warning:', warning.message);
     console.warn(warning.stack);
     // Don't exit, just log the warning
   });
 
   // Handle process exit
-  process.on("exit", (code: number) => {
+  process.on('exit', (code: number) => {
     console.log(`Process exiting with code ${code}`);
     // Don't prevent exit, but log it
   });
 
   // Handle TypeScript runtime errors
-  process.on("uncaughtException", (error: Error) => {
+  process.on('uncaughtException', (error: Error) => {
     // Check if it's a TypeScript-related error
     if (
-      error.message.includes("Cannot read property") ||
-      error.message.includes("undefined") ||
-      error.message.includes("null") ||
-      error.message.includes("is not a function") ||
-      error.message.includes("Cannot read properties of")
+      error.message.includes('Cannot read property') ||
+      error.message.includes('undefined') ||
+      error.message.includes('null') ||
+      error.message.includes('is not a function') ||
+      error.message.includes('Cannot read properties of')
     ) {
-      console.error("TypeScript Runtime Error:", error.message);
+      console.error('TypeScript Runtime Error:', error.message);
       // console.error(error.stack);
 
       // Attempt to recover
@@ -98,7 +98,7 @@ export const UnhandledExceptionMiddleware = (): void => {
           });
         }
       } catch (recoveryError) {
-        console.error("Recovery failed:", recoveryError);
+        console.error('Recovery failed:', recoveryError);
       }
     }
   });
@@ -125,22 +125,22 @@ export const GlobalErrorMiddleware = (
   res: Response,
   next: NextFunction
 ): void => {
-  console.log("GLOBAL ERROR INTERCEPTOR REACHED");
+  console.log('GLOBAL ERROR INTERCEPTOR REACHED');
 
   let statusCode = 500;
-  let message = err.message || "Internal Server Error";
-  let status = "error";
+  const message = err.message || 'Internal Server Error';
+  let status = 'error';
   let data = {};
 
   // If it's a ThrowException, use its properties
   if (err instanceof ThrowException) {
-    console.log("ERROR ThrowException", err);
+    console.log('ERROR ThrowException', err);
     statusCode = err.statusCode;
     status = err.status;
     data = err.data || {};
   }
 
-  console.log("Global Error Interceptor:", message);
+  console.log('Global Error Interceptor:', message);
 
   // Process MongoDB errors
   // const { message: processedMessage, statusCode: processedStatusCode } =
@@ -153,8 +153,8 @@ export const GlobalErrorMiddleware = (
 
   // Default Error Handling for Non-Operational Errors
   if (!(err as ThrowException).isOperational) {
-    console.error("Unexpected Error:", err);
-    status = "error"; // Set status to error for unexpected errors
+    console.error('Unexpected Error:', err);
+    status = 'error'; // Set status to error for unexpected errors
   }
 
   // Send the error response
