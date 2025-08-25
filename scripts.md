@@ -7,9 +7,9 @@
 
 ## 🚀 **Server Startup**
 
-- **`npm run dev`** - Development server with hot reload (nodemon)
-- **`npm run prod`** - Build and start production server with PM2
-- **`npm run staging`** - Build and start staging server with PM2
+- **`npm run start:dev`** - Development server with hot reload (nodemon)
+- **`npm run start`** - Build and start production server with PM2
+- **`npm run start:staging`** - Build and start staging server with PM2
 
 ## 🔍 **Code Quality**
 
@@ -83,7 +83,7 @@
 **Development:**
 
 ```bash
-npm run dev          # Start development server
+npm run start:dev    # Start development server
 npm run lint         # Check and fix code issues
 npm run format       # Format code
 ```
@@ -91,13 +91,13 @@ npm run format       # Format code
 **Production Deployment:**
 
 ```bash
-npm run prod         # Build and start production
+npm run start        # Build and start production
 ```
 
 **Staging Deployment:**
 
 ```bash
-npm run staging      # Build and start staging
+npm run start:staging # Build and start staging
 ```
 
 **PM2 Monitoring:**

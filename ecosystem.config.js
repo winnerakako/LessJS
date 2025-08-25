@@ -64,15 +64,15 @@ module.exports = {
       max_restarts: 5,
     },
     {
-      // Staging - Compiled JavaScript, single instance for testing
+      // Staging - Mirrors production configuration for accurate testing
       name: 'lessjs-staging',
       script: './dist/less-server.js',
       node_args: '--require module-alias/register',
-      instances: 1,
-      exec_mode: 'fork',
+      instances: Math.max(1, os.cpus().length - 1), // Same clustering as production
+      exec_mode: 'cluster', // Same as production
       autorestart: true,
       watch: false,
-      max_memory_restart: '300M',
+      max_memory_restart: '500M', // Same as production
       env_staging: {
         NODE_ENV: 'staging',
         PORT: PM2_CONFIG.port + 1, // Staging runs on port + 1
@@ -84,11 +84,11 @@ module.exports = {
       time: true,
       log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
       merge_logs: true,
-      kill_timeout: 15000,
-      listen_timeout: 5000,
-      restart_delay: 1000,
-      min_uptime: '5s',
-      max_restarts: 3,
+      kill_timeout: 30000, // Same as production
+      listen_timeout: 10000, // Same as production
+      restart_delay: 2000, // Same as production
+      min_uptime: '10s', // Same as production
+      max_restarts: 5, // Same as production
     },
   ],
 };

@@ -4,9 +4,9 @@
   "description": "",
   "main": "less-server.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon",
-    "prod": "npm run build && pm2 start ecosystem.config.js --only lessjs-prod --env production",
-    "staging": "npm run build && pm2 start ecosystem.config.js --only lessjs-staging --env staging",
+    "start": "npm run build && pm2 start ecosystem.config.js --only lessjs-prod --env production",
+    "start:dev": "cross-env NODE_ENV=development nodemon",
+    "start:staging": "npm run build && pm2 start ecosystem.config.js --only lessjs-staging --env staging",
     "build": "npm run clean && tsc -p tsconfig.json && node .less-build-script.js",
     "clean": "rimraf dist",
     "lint": "eslint . --fix",

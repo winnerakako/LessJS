@@ -1,5 +1,4 @@
 import { Response } from 'express';
-import { LessConfig } from '../../less-config';
 
 // Response Handler
 interface ResponseData {
@@ -14,7 +13,6 @@ interface ModifiedResponseData {
   data: Omit<ResponseData, 'message'>;
   meta: {
     timestamp: Date;
-    version: string | undefined;
   };
 }
 
@@ -37,7 +35,6 @@ export const LessResponse = (
     data: newData,
     meta: {
       timestamp: currentTime,
-      version: LessConfig.appVersion,
     },
   };
 
