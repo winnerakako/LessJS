@@ -143,7 +143,7 @@ export const SetupRoutes = async (app: Express) => {
     const startTime = process.hrtime();
 
     // console.log('🚀 Setting up routes...');
-    const routesPath = path.join(__dirname, '../../src/shared/routes');
+    const routesPath = path.join(__dirname, '../../src/routes');
 
     // Get router files with caching
     const readDirStart = process.hrtime();
