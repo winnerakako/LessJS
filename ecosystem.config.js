@@ -1,4 +1,5 @@
 const { LessConfig } = require('./less-config.ts');
+const os = require('os');
 
 module.exports = {
   apps: [
@@ -35,7 +36,7 @@ module.exports = {
       name: 'lessjs-prod',
       script: './dist/less-server.js',
       node_args: '--require module-alias/register',
-      instances: 'max' - 1,
+      instances: Math.max(1, os.cpus().length - 1),
       exec_mode: 'cluster',
       autorestart: true,
       watch: false,
