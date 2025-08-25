@@ -1,0 +1,803 @@
+2025-08-25T13:27:42: [Bootstrap] Starting application...
+2025-08-25T13:27:42: [Bootstrap] Starting application...
+2025-08-25T13:27:42: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:27:42: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:27:42: 🚀 Routes setup completed in 40.75ms
+2025-08-25T13:27:42:    - Memory (RSS): 62.14MB
+2025-08-25T13:27:42: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:27:42: [Bootstrap] Environment: production
+2025-08-25T13:27:42: [Bootstrap] Process ID: 4324
+2025-08-25T13:27:42: [Lifecycle] HTTP server registered
+2025-08-25T13:27:42: ✅ Server started successfully
+2025-08-25T13:27:42: 🚀 Routes setup completed in 100.08ms
+2025-08-25T13:27:42:    - Memory (RSS): 62.30MB
+2025-08-25T13:27:42: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:27:42: [Bootstrap] Environment: production
+2025-08-25T13:27:42: [Bootstrap] Process ID: 29208
+2025-08-25T13:27:42: [Lifecycle] HTTP server registered
+2025-08-25T13:27:42: ✅ Server started successfully
+2025-08-25T13:27:42: [Bootstrap] Starting application...
+2025-08-25T13:27:42: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:27:42: [Bootstrap] Starting application...
+2025-08-25T13:27:42: 🚀 Routes setup completed in 43.18ms
+2025-08-25T13:27:42:    - Memory (RSS): 62.18MB
+2025-08-25T13:27:42: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:27:42: [Bootstrap] Environment: production
+2025-08-25T13:27:42: [Bootstrap] Process ID: 28240
+2025-08-25T13:27:42: [Lifecycle] HTTP server registered
+2025-08-25T13:27:42: ✅ Server started successfully
+2025-08-25T13:27:42: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:27:42: 🚀 Routes setup completed in 35.25ms
+2025-08-25T13:27:42:    - Memory (RSS): 62.12MB
+2025-08-25T13:27:42: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:27:42: [Bootstrap] Environment: production
+2025-08-25T13:27:42: [Bootstrap] Process ID: 18688
+2025-08-25T13:27:42: [Lifecycle] HTTP server registered
+2025-08-25T13:27:42: ✅ Server started successfully
+2025-08-25T13:36:37: [Bootstrap] Starting application...
+2025-08-25T13:36:37: [Bootstrap] Starting application...
+2025-08-25T13:36:37: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:36:37: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:36:37: 🚀 Routes setup completed in 40.55ms
+2025-08-25T13:36:37:    - Memory (RSS): 62.31MB
+2025-08-25T13:36:37: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:36:37: [Bootstrap] Environment: production
+2025-08-25T13:36:37: [Bootstrap] Process ID: 30164
+2025-08-25T13:36:37: [Lifecycle] HTTP server registered
+2025-08-25T13:36:37: ✅ Server started successfully
+2025-08-25T13:36:37: 🚀 Routes setup completed in 73.91ms
+2025-08-25T13:36:37:    - Memory (RSS): 62.55MB
+2025-08-25T13:36:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:36:38: [Bootstrap] Environment: production
+2025-08-25T13:36:38: [Bootstrap] Process ID: 20972
+2025-08-25T13:36:38: [Lifecycle] HTTP server registered
+2025-08-25T13:36:38: ✅ Server started successfully
+2025-08-25T13:36:38: [Bootstrap] Starting application...
+2025-08-25T13:36:38: [Bootstrap] Starting application...
+2025-08-25T13:36:38: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:36:38: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:36:38: 🚀 Routes setup completed in 22.91ms
+2025-08-25T13:36:38:    - Memory (RSS): 62.06MB
+2025-08-25T13:36:38: 🚀 Routes setup completed in 23.82ms
+2025-08-25T13:36:38:    - Memory (RSS): 62.14MB
+2025-08-25T13:36:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:36:38: [Bootstrap] Environment: production
+2025-08-25T13:36:38: [Bootstrap] Process ID: 32384
+2025-08-25T13:36:38: [Lifecycle] HTTP server registered
+2025-08-25T13:36:38: ✅ Server started successfully
+2025-08-25T13:36:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:36:38: [Bootstrap] Environment: production
+2025-08-25T13:36:38: [Bootstrap] Process ID: 24256
+2025-08-25T13:36:38: [Lifecycle] HTTP server registered
+2025-08-25T13:36:38: ✅ Server started successfully
+2025-08-25T13:37:14: [0mPOST /api/first-app-v1/users/register [36m301[0m 4.623 ms - 83[0m
+2025-08-25T13:37:31: [0mPOST /api/first-app-v1/users/register [36m301[0m 1.326 ms - 83[0m
+2025-08-25T13:39:30: [Bootstrap] Starting application...
+2025-08-25T13:39:30: [Bootstrap] Starting application...
+2025-08-25T13:39:30: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:39:30: 🚀 Routes setup completed in 60.42ms
+2025-08-25T13:39:30:    - Memory (RSS): 62.49MB
+2025-08-25T13:39:30: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:39:30: [Bootstrap] Environment: production
+2025-08-25T13:39:30: [Bootstrap] Process ID: 25592
+2025-08-25T13:39:30: [Lifecycle] HTTP server registered
+2025-08-25T13:39:30: ✅ Server started successfully
+2025-08-25T13:39:30: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:39:30: 🚀 Routes setup completed in 78.95ms
+2025-08-25T13:39:30:    - Memory (RSS): 62.37MB
+2025-08-25T13:39:30: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:39:30: [Bootstrap] Environment: production
+2025-08-25T13:39:30: [Bootstrap] Process ID: 13068
+2025-08-25T13:39:30: [Lifecycle] HTTP server registered
+2025-08-25T13:39:30: ✅ Server started successfully
+2025-08-25T13:39:30: [Bootstrap] Starting application...
+2025-08-25T13:39:30: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:39:30: 🚀 Routes setup completed in 26.71ms
+2025-08-25T13:39:30:    - Memory (RSS): 62.04MB
+2025-08-25T13:39:30: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:39:30: [Bootstrap] Environment: production
+2025-08-25T13:39:30: [Bootstrap] Process ID: 19348
+2025-08-25T13:39:30: [Lifecycle] HTTP server registered
+2025-08-25T13:39:30: ✅ Server started successfully
+2025-08-25T13:39:30: [Bootstrap] Starting application...
+2025-08-25T13:39:30: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:39:30: 🚀 Routes setup completed in 19.21ms
+2025-08-25T13:39:30:    - Memory (RSS): 62.38MB
+2025-08-25T13:39:30: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:39:30: [Bootstrap] Environment: production
+2025-08-25T13:39:30: [Bootstrap] Process ID: 28852
+2025-08-25T13:39:30: [Lifecycle] HTTP server registered
+2025-08-25T13:39:30: ✅ Server started successfully
+2025-08-25T13:40:02: [Bootstrap] Starting application...
+2025-08-25T13:40:02: [Bootstrap] Starting application...
+2025-08-25T13:40:02: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:40:02: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:40:02: 🚀 Routes setup completed in 53.74ms
+2025-08-25T13:40:02:    - Memory (RSS): 62.48MB
+2025-08-25T13:40:02: [Bootstrap] Server running on http://0.0.0.0:8005
+2025-08-25T13:40:02: [Bootstrap] Environment: production
+2025-08-25T13:40:02: [Bootstrap] Process ID: 28244
+2025-08-25T13:40:02: [Lifecycle] HTTP server registered
+2025-08-25T13:40:02: ✅ Server started successfully
+2025-08-25T13:40:02: 🚀 Routes setup completed in 42.82ms
+2025-08-25T13:40:02:    - Memory (RSS): 62.25MB
+2025-08-25T13:40:02: [Bootstrap] Server running on http://0.0.0.0:8005
+2025-08-25T13:40:02: [Bootstrap] Environment: production
+2025-08-25T13:40:02: [Bootstrap] Process ID: 13248
+2025-08-25T13:40:02: [Lifecycle] HTTP server registered
+2025-08-25T13:40:02: ✅ Server started successfully
+2025-08-25T13:40:02: [Bootstrap] Starting application...
+2025-08-25T13:40:02: [Bootstrap] Starting application...
+2025-08-25T13:40:02: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:40:02: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:40:02: 🚀 Routes setup completed in 27.48ms
+2025-08-25T13:40:02:    - Memory (RSS): 62.04MB
+2025-08-25T13:40:02: [Bootstrap] Server running on http://0.0.0.0:8005
+2025-08-25T13:40:02: [Bootstrap] Environment: production
+2025-08-25T13:40:02: [Bootstrap] Process ID: 7772
+2025-08-25T13:40:02: [Lifecycle] HTTP server registered
+2025-08-25T13:40:02: ✅ Server started successfully
+2025-08-25T13:40:02: 🚀 Routes setup completed in 22.51ms
+2025-08-25T13:40:02:    - Memory (RSS): 62.23MB
+2025-08-25T13:40:02: [Bootstrap] Server running on http://0.0.0.0:8005
+2025-08-25T13:40:02: [Bootstrap] Environment: production
+2025-08-25T13:40:02: [Bootstrap] Process ID: 1004
+2025-08-25T13:40:02: [Lifecycle] HTTP server registered
+2025-08-25T13:40:02: ✅ Server started successfully
+2025-08-25T13:43:31: [Bootstrap] Starting application...
+2025-08-25T13:43:31: [Bootstrap] Starting application...
+2025-08-25T13:43:31: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:43:31: 🚀 Routes setup completed in 68.10ms
+2025-08-25T13:43:31:    - Memory (RSS): 63.25MB
+2025-08-25T13:43:31: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:43:31: [Bootstrap] Environment: production
+2025-08-25T13:43:31: [Bootstrap] Process ID: 15808
+2025-08-25T13:43:31: [Lifecycle] HTTP server registered
+2025-08-25T13:43:31: ✅ Server started successfully
+2025-08-25T13:43:31: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:43:31: 🚀 Routes setup completed in 95.42ms
+2025-08-25T13:43:31:    - Memory (RSS): 62.95MB
+2025-08-25T13:43:31: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:43:31: [Bootstrap] Environment: production
+2025-08-25T13:43:31: [Bootstrap] Process ID: 18844
+2025-08-25T13:43:31: [Lifecycle] HTTP server registered
+2025-08-25T13:43:31: ✅ Server started successfully
+2025-08-25T13:43:32: [Bootstrap] Starting application...
+2025-08-25T13:43:32: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:43:32: 🚀 Routes setup completed in 61.50ms
+2025-08-25T13:43:32:    - Memory (RSS): 63.18MB
+2025-08-25T13:43:32: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:43:32: [Bootstrap] Environment: production
+2025-08-25T13:43:32: [Bootstrap] Process ID: 25016
+2025-08-25T13:43:32: [Lifecycle] HTTP server registered
+2025-08-25T13:43:32: ✅ Server started successfully
+2025-08-25T13:43:32: [Bootstrap] Starting application...
+2025-08-25T13:43:32: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:43:32: 🚀 Routes setup completed in 66.66ms
+2025-08-25T13:43:32:    - Memory (RSS): 62.60MB
+2025-08-25T13:43:32: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:43:32: [Bootstrap] Environment: production
+2025-08-25T13:43:32: [Bootstrap] Process ID: 29684
+2025-08-25T13:43:32: [Lifecycle] HTTP server registered
+2025-08-25T13:43:32: ✅ Server started successfully
+2025-08-25T13:45:11: [0mGET / [36m301[0m 2.572 ms - 52[0m
+2025-08-25T13:46:45: [0mGET /api/ [36m301[0m 3.650 ms - 56[0m
+2025-08-25T13:52:15: [Bootstrap] Starting application...
+2025-08-25T13:52:15: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:52:15: 🚀 Routes setup completed in 63.66ms
+2025-08-25T13:52:15:    - Memory (RSS): 60.90MB
+2025-08-25T13:52:15: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:52:15: [Bootstrap] Environment: production
+2025-08-25T13:52:15: [Bootstrap] Process ID: 14536
+2025-08-25T13:52:15: [Lifecycle] HTTP server registered
+2025-08-25T13:52:15: ✅ Server started successfully
+2025-08-25T13:52:15: [Bootstrap] Starting application...
+2025-08-25T13:52:15: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:52:15: 🚀 Routes setup completed in 54.69ms
+2025-08-25T13:52:15:    - Memory (RSS): 61.16MB
+2025-08-25T13:52:15: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:52:15: [Bootstrap] Environment: production
+2025-08-25T13:52:15: [Bootstrap] Process ID: 10864
+2025-08-25T13:52:15: [Lifecycle] HTTP server registered
+2025-08-25T13:52:15: ✅ Server started successfully
+2025-08-25T13:52:15: [Bootstrap] Starting application...
+2025-08-25T13:52:15: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:52:15: 🚀 Routes setup completed in 63.00ms
+2025-08-25T13:52:15:    - Memory (RSS): 60.73MB
+2025-08-25T13:52:15: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:52:15: [Bootstrap] Environment: production
+2025-08-25T13:52:15: [Bootstrap] Process ID: 4972
+2025-08-25T13:52:15: [Lifecycle] HTTP server registered
+2025-08-25T13:52:15: ✅ Server started successfully
+2025-08-25T13:52:16: [Bootstrap] Starting application...
+2025-08-25T13:52:16: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T13:52:16: 🚀 Routes setup completed in 21.50ms
+2025-08-25T13:52:16:    - Memory (RSS): 60.61MB
+2025-08-25T13:52:16: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T13:52:16: [Bootstrap] Environment: production
+2025-08-25T13:52:16: [Bootstrap] Process ID: 1032
+2025-08-25T13:52:16: [Lifecycle] HTTP server registered
+2025-08-25T13:52:16: ✅ Server started successfully
+2025-08-25T13:52:25: [0mGET /api/ [36m301[0m 5.458 ms - 56[0m
+2025-08-25T14:03:24: [Bootstrap] Starting application...
+2025-08-25T14:03:24: [Bootstrap] Starting application...
+2025-08-25T14:03:24: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:03:24: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:03:24: 🚀 Routes setup completed in 42.52ms
+2025-08-25T14:03:24:    - Memory (RSS): 60.80MB
+2025-08-25T14:03:24: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:03:24: [Bootstrap] Environment: production
+2025-08-25T14:03:24: [Bootstrap] Process ID: 12876
+2025-08-25T14:03:24: [Lifecycle] HTTP server registered
+2025-08-25T14:03:24: ✅ Server started successfully
+2025-08-25T14:03:24: 🚀 Routes setup completed in 46.98ms
+2025-08-25T14:03:24:    - Memory (RSS): 60.95MB
+2025-08-25T14:03:24: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:03:24: [Bootstrap] Environment: production
+2025-08-25T14:03:24: [Bootstrap] Process ID: 15208
+2025-08-25T14:03:24: [Lifecycle] HTTP server registered
+2025-08-25T14:03:24: ✅ Server started successfully
+2025-08-25T14:03:24: [Bootstrap] Starting application...
+2025-08-25T14:03:24: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:03:24: 🚀 Routes setup completed in 41.89ms
+2025-08-25T14:03:24:    - Memory (RSS): 61.12MB
+2025-08-25T14:03:24: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:03:24: [Bootstrap] Environment: production
+2025-08-25T14:03:24: [Bootstrap] Process ID: 3576
+2025-08-25T14:03:24: [Lifecycle] HTTP server registered
+2025-08-25T14:03:24: ✅ Server started successfully
+2025-08-25T14:03:24: [Bootstrap] Starting application...
+2025-08-25T14:03:24: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:03:24: 🚀 Routes setup completed in 35.40ms
+2025-08-25T14:03:24:    - Memory (RSS): 61.31MB
+2025-08-25T14:03:24: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:03:24: [Bootstrap] Environment: production
+2025-08-25T14:03:24: [Bootstrap] Process ID: 15080
+2025-08-25T14:03:24: [Lifecycle] HTTP server registered
+2025-08-25T14:03:24: ✅ Server started successfully
+2025-08-25T14:03:35: RESPONSE HANDLER: 200 Hello World
+2025-08-25T14:03:35: [0mGET /api/ [32m200[0m 14.775 ms - 143[0m
+2025-08-25T14:15:48: [Bootstrap] Starting application...
+2025-08-25T14:15:48: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:15:48: [Bootstrap] Starting application...
+2025-08-25T14:15:48: 🚀 Routes setup completed in 37.87ms
+2025-08-25T14:15:48:    - Memory (RSS): 61.40MB
+2025-08-25T14:15:48: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:15:48: [Bootstrap] Environment: production
+2025-08-25T14:15:48: [Bootstrap] Process ID: 20612
+2025-08-25T14:15:48: [Lifecycle] HTTP server registered
+2025-08-25T14:15:48: ✅ Server started successfully
+2025-08-25T14:15:48: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:15:48: 🚀 Routes setup completed in 45.82ms
+2025-08-25T14:15:48:    - Memory (RSS): 61.63MB
+2025-08-25T14:15:48: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:15:48: [Bootstrap] Environment: production
+2025-08-25T14:15:48: [Bootstrap] Process ID: 4324
+2025-08-25T14:15:48: [Lifecycle] HTTP server registered
+2025-08-25T14:15:48: ✅ Server started successfully
+2025-08-25T14:15:48: [Bootstrap] Starting application...
+2025-08-25T14:15:48: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:15:48: 🚀 Routes setup completed in 28.32ms
+2025-08-25T14:15:48:    - Memory (RSS): 61.40MB
+2025-08-25T14:15:48: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:15:48: [Bootstrap] Environment: production
+2025-08-25T14:15:48: [Bootstrap] Process ID: 32188
+2025-08-25T14:15:48: [Lifecycle] HTTP server registered
+2025-08-25T14:15:48: ✅ Server started successfully
+2025-08-25T14:15:48: [Bootstrap] Starting application...
+2025-08-25T14:15:48: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:15:48: 🚀 Routes setup completed in 20.20ms
+2025-08-25T14:15:48:    - Memory (RSS): 60.93MB
+2025-08-25T14:15:48: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:15:48: [Bootstrap] Environment: production
+2025-08-25T14:15:48: [Bootstrap] Process ID: 22468
+2025-08-25T14:15:48: [Lifecycle] HTTP server registered
+2025-08-25T14:15:48: ✅ Server started successfully
+2025-08-25T14:15:54: Dto middleware called
+2025-08-25T14:15:54: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:15:54: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:15:54: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:15:54: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:15:54: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:15:54: [0mPOST /api/first-app-v1/users/register [33m400[0m 60.949 ms - 154[0m
+2025-08-25T14:15:57: Dto middleware called
+2025-08-25T14:15:57: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:15:57: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:15:57: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:15:57: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:15:57: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:15:57: [0mPOST /api/first-app-v1/users/register [33m400[0m 8.687 ms - 154[0m
+2025-08-25T14:15:58: Dto middleware called
+2025-08-25T14:15:58: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:15:58: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:15:58: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:15:58: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:15:58: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:15:58: [0mPOST /api/first-app-v1/users/register [33m400[0m 4.642 ms - 154[0m
+2025-08-25T14:16:03: Dto middleware called
+2025-08-25T14:16:03: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:16:03: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:16:03: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:16:03: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:16:03: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:16:03: [0mPOST /api/first-app-v1/users/register [33m400[0m 7.923 ms - 154[0m
+2025-08-25T14:16:04: Dto middleware called
+2025-08-25T14:16:04: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:16:04: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:16:04: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:16:04: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:16:04: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:16:04: [0mPOST /api/first-app-v1/users/register [33m400[0m 5.206 ms - 154[0m
+2025-08-25T14:22:57: Dto middleware called
+2025-08-25T14:22:57: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:22:57: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:22:57: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:22:57: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:22:57: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:22:57: [0mPOST /api/first-app-v1/users/register [33m400[0m 3.599 ms - 154[0m
+2025-08-25T14:22:59: Dto middleware called
+2025-08-25T14:22:59: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:22:59: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:22:59: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:22:59: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:22:59: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:22:59: [0mPOST /api/first-app-v1/users/register [33m400[0m 5.552 ms - 154[0m
+2025-08-25T14:23:38: [Bootstrap] Starting application...
+2025-08-25T14:23:38: [Bootstrap] Starting application...
+2025-08-25T14:23:38: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:23:38: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:23:38: 🚀 Routes setup completed in 36.07ms
+2025-08-25T14:23:38:    - Memory (RSS): 61.16MB
+2025-08-25T14:23:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:23:38: 🚀 Routes setup completed in 78.59ms
+2025-08-25T14:23:38:    - Memory (RSS): 61.72MB
+2025-08-25T14:23:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:23:38: [Bootstrap] Environment: production
+2025-08-25T14:23:38: [Bootstrap] Process ID: 10368
+2025-08-25T14:23:38: [Lifecycle] HTTP server registered
+2025-08-25T14:23:38: ✅ Server started successfully
+2025-08-25T14:23:38: [Bootstrap] Environment: production
+2025-08-25T14:23:38: [Bootstrap] Process ID: 13244
+2025-08-25T14:23:38: [Lifecycle] HTTP server registered
+2025-08-25T14:23:38: ✅ Server started successfully
+2025-08-25T14:23:38: [Bootstrap] Starting application...
+2025-08-25T14:23:38: [Bootstrap] Starting application...
+2025-08-25T14:23:38: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:23:38: 🚀 Routes setup completed in 20.79ms
+2025-08-25T14:23:38:    - Memory (RSS): 60.90MB
+2025-08-25T14:23:38: 🎯 Successfully mounted 2 out of 2 routes (100.0%)
+2025-08-25T14:23:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:23:38: [Bootstrap] Environment: production
+2025-08-25T14:23:38: [Bootstrap] Process ID: 24468
+2025-08-25T14:23:38: [Lifecycle] HTTP server registered
+2025-08-25T14:23:38: ✅ Server started successfully
+2025-08-25T14:23:38: 🚀 Routes setup completed in 24.22ms
+2025-08-25T14:23:38:    - Memory (RSS): 61.46MB
+2025-08-25T14:23:38: [Bootstrap] Server running on http://0.0.0.0:8000
+2025-08-25T14:23:38: [Bootstrap] Environment: production
+2025-08-25T14:23:38: [Bootstrap] Process ID: 6044
+2025-08-25T14:23:38: [Lifecycle] HTTP server registered
+2025-08-25T14:23:38: ✅ Server started successfully
+2025-08-25T14:23:43: Dto middleware called
+2025-08-25T14:23:43: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:23:43: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:23:43: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:23:43: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:23:43: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:23:43: [0mPOST /api/first-app-v1/users/register [33m400[0m 62.186 ms - 154[0m
+2025-08-25T14:23:45: Dto middleware called
+2025-08-25T14:23:45: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:23:45: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:23:45: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:23:45: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:23:45: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:23:45: [0mPOST /api/first-app-v1/users/register [33m400[0m 9.904 ms - 154[0m
+2025-08-25T14:33:50: Dto middleware called
+2025-08-25T14:33:50: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:33:50: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:33:50: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:33:50: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:33:50: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:33:50: [0mPOST /api/first-app-v1/users/register [33m400[0m 8.174 ms - 154[0m
+2025-08-25T14:33:53: Dto middleware called
+2025-08-25T14:33:53: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:33:53: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:33:53: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:33:53: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:33:53: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:33:53: [0mPOST /api/first-app-v1/users/register [33m400[0m 3.974 ms - 154[0m
+2025-08-25T14:35:54: Dto middleware called
+2025-08-25T14:35:54: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:35:54: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:35:54: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:35:54: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:35:54: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:35:54: [0mPOST /api/first-app-v1/users/register [33m400[0m 3.692 ms - 154[0m
+2025-08-25T14:36:14: Dto middleware called
+2025-08-25T14:36:14: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:36:14: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:36:14: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:36:14: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:36:14: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:36:14: [0mPOST /api/first-app-v1/users/register [33m400[0m 2.732 ms - 154[0m
+2025-08-25T14:36:16: Dto middleware called
+2025-08-25T14:36:16: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:36:16: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:36:16: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:36:16: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:36:16: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:36:16: [0mPOST /api/first-app-v1/users/register [33m400[0m 2.394 ms - 154[0m
+2025-08-25T14:36:20: Dto middleware called
+2025-08-25T14:36:20: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:36:20: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:36:20: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:36:20: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:36:20: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:36:20: [0mPOST /api/first-app-v1/users/register [33m400[0m 3.315 ms - 154[0m
+2025-08-25T14:42:43: Dto middleware called
+2025-08-25T14:42:43: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:42:43: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:42:43: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:42:43: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:42:43: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:42:43: [0mPOST /api/first-app-v1/users/register [33m400[0m 6.695 ms - 154[0m
+2025-08-25T14:44:15: Dto middleware called
+2025-08-25T14:44:15: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:44:15: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:44:15: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:44:15: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:44:15: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:44:15: [0mPOST /api/first-app-v1/users/register [33m400[0m 3.991 ms - 154[0m
+2025-08-25T14:44:33: Dto middleware called
+2025-08-25T14:44:33: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 2,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:44:33: RESPONSE HANDLER: 201 user created
+2025-08-25T14:44:33: [0mPOST /api/first-app-v1/users/register [32m201[0m 1.790 ms - 209[0m
+2025-08-25T14:44:55: Dto middleware called
+2025-08-25T14:44:55: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 2,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:44:55: RESPONSE HANDLER: 201 user created
+2025-08-25T14:44:55: [0mPOST /api/first-app-v1/users/register [32m201[0m 2.777 ms - 209[0m
+2025-08-25T14:45:28: Dto middleware called
+2025-08-25T14:45:28: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:45:28: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:45:28: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:45:28: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:45:28: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:45:28: [0mPOST /api/first-app-v1/users/register [33m400[0m 2.581 ms - 154[0m
+2025-08-25T14:49:14: Dto middleware called
+2025-08-25T14:49:14: createUser UserDto {
+  email: 'winner@gmail.com',
+  id: 1,
+  password: 'winner otomo akako'
+}
+2025-08-25T14:49:14: GLOBAL ERROR INTERCEPTOR REACHED
+2025-08-25T14:49:14: ERROR ThrowException ThrowException [Error]: First ID is not allowed
+    at Function.badRequest (C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-error.ts:106:12)
+    at createUser (C:\Users\USER\Documents\dev\lessJs\v3\src\apps\first-app-v1\services\user\services\create-user.ts:11:38)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\router.ts:27:32
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\common\less-try-catch.ts:11:5
+    at Layer.handle [as handle_request] (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\USER\Documents\dev\lessJs\v3\_lessjs\core\dto.ts:55:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  statusCode: 400,
+  status: 'failed',
+  errorCode: 'BAD_REQUEST',
+  isOperational: true
+}
+2025-08-25T14:49:14: Global Error Interceptor: First ID is not allowed
+2025-08-25T14:49:14: RESPONSE HANDLER: 400 First ID is not allowed
+2025-08-25T14:49:14: [0mPOST /api/first-app-v1/users/register [33m400[0m 8.729 ms - 154[0m

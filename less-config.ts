@@ -37,8 +37,8 @@ const API_PREFIX: string = '/api';
 const PORT: number = 8000;
 const HOST: string = '0.0.0.0';
 const TIMEZONE: string = 'Africa/Lagos';
-const ENABLE_CRON: boolean = true;
-const ENABLE_HTTPS_REDIRECT: boolean = true;
+
+const ENABLE_HTTPS_REDIRECT: boolean = false; // Temporarily disabled for testing
 const ENABLE_CORS: boolean = true;
 const ENABLE_BODY_PARSERS: boolean = true;
 const ENABLE_COMPRESSION: boolean = true;
@@ -57,7 +57,7 @@ export const LessConfig = {
   apiPrefix: process.env.API_PREFIX || API_PREFIX,
   appVersion: process.env.APP_VERSION || VERSION,
   enableCluster: CLUSTER_MODE,
-  enableCron: ENABLE_CRON,
+
   securityConfig: {
     // HTTPS redirect settings
     httpsRedirect: {

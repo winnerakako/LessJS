@@ -1,0 +1,20 @@
+{
+  "watch": ["src/", "_lessjs/", "less-server.ts", "less-config.ts"],
+  "ext": "ts,js,json",
+  "ignore": ["node_modules/", "dist/", "logs/", "*.log", "*.md", ".git/"],
+  "delay": "1000",
+  "exec": "node --require tsconfig-paths/register --require @swc-node/register less-server.ts",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "restartable": "rs",
+  "verbose": false,
+  "signal": "SIGTERM",
+  "killTimeout": 3000,
+  "events": {
+    "start": "echo '[Nodemon] Starting server...'",
+    "restart": "echo '[Nodemon] Restarting server due to file changes...'",
+    "crash": "echo '[Nodemon] Server crashed, waiting for changes to restart...'",
+    "exit": "echo '[Nodemon] Server exited cleanly'"
+  }
+}

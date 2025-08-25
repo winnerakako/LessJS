@@ -1,95 +1,31 @@
 import { LessError, ThrowException } from '../common/less-error';
 import { LessResponse } from '../common/less-response';
 
-import { Request, Response, NextFunction } from 'express';
+import { NextFunction, Request, Response } from 'express';
 // import { processMongoDBError } from "./mongodb-errors-handler";
 
 // NODE UNHANDLED ERRORS
 export const UnhandledExceptionMiddleware = (): void => {
   // Uncaught Exception
   process.on('uncaughtException', (error: Error) => {
-    console.error('Uncaught Exception:', error.message);
+    console.error('[Middleware] Uncaught Exception:', error.message);
     console.error(error.stack);
 
     // Log to monitoring service if you have one
     // Example: Sentry.captureException(error);
 
-    // Attempt to recover
-    try {
-      // You could add recovery logic here
-      // For example, reconnecting to databases, clearing caches, etc.
-    } catch (recoveryError) {
-      console.error('Recovery failed:', recoveryError);
-    }
-  });
-
-  // Unhandled Rejection
-  process.on(
-    'unhandledRejection',
-    (reason: unknown, promise: Promise<unknown>) => {
-      // console.error("Unhandled Rejection:", reason?.message);
-
-      // Convert reason to Error object if it isn't already
-      const error =
-        reason instanceof Error ? reason : new Error(String(reason));
-      console.error(error.stack);
-
-      // Log the promise that caused the rejection
-      console.error('Promise:', promise);
-
-      // Attempt to recover
-      try {
-        // You could add recovery logic here
-        // For example, reconnecting to databases, clearing caches, etc.
-      } catch (recoveryError) {
-        console.error('Recovery failed:', recoveryError);
-      }
-    }
-  );
-
-  // Handle worker errors in cluster mode
-  if (process.env.WORKER_ROLE) {
-    process.on('error', (error: Error) => {
-      console.error('Worker Error:', error.message);
-      console.error(error.stack);
-      // Don't exit, let the cluster manager handle worker restarts
-    });
-  }
-
-  // Handle MongoDB connection errors
-  process.on('MongoError', (error: Error) => {
-    console.error('MongoDB Error:', error.message);
-    console.error(error.stack);
-    // Don't exit, let the connection retry logic handle it
-  });
-
-  // Handle process warnings
-  process.on('warning', (warning: Error) => {
-    console.warn('Process Warning:', warning.message);
-    console.warn(warning.stack);
-    // Don't exit, just log the warning
-  });
-
-  // Handle process exit
-  process.on('exit', (code: number) => {
-    console.log(`Process exiting with code ${code}`);
-    // Don't prevent exit, but log it
-  });
-
-  // Handle TypeScript runtime errors
-  process.on('uncaughtException', (error: Error) => {
-    // Check if it's a TypeScript-related error
-    if (
+    // Check if it's a critical TypeScript-related error
+    const isTypeScriptError =
       error.message.includes('Cannot read property') ||
       error.message.includes('undefined') ||
       error.message.includes('null') ||
       error.message.includes('is not a function') ||
-      error.message.includes('Cannot read properties of')
-    ) {
-      console.error('TypeScript Runtime Error:', error.message);
-      // console.error(error.stack);
+      error.message.includes('Cannot read properties of');
 
-      // Attempt to recover
+    if (isTypeScriptError) {
+      console.error('[Middleware] TypeScript Runtime Error detected');
+
+      // Attempt to recover for TypeScript errors
       try {
         // Clear any cached modules that might be causing issues
         if (require.cache) {
@@ -97,11 +33,77 @@ export const UnhandledExceptionMiddleware = (): void => {
             delete require.cache[key];
           });
         }
+        console.log('[Middleware] Module cache cleared for recovery');
       } catch (recoveryError) {
-        console.error('Recovery failed:', recoveryError);
+        console.error('[Middleware] Recovery failed:', recoveryError);
       }
     }
+
+    // Note: Graceful shutdown for critical errors is now handled
+    // by ApplicationLifecycle automatically via process signals
   });
+
+  // Unhandled Rejection
+  process.on(
+    'unhandledRejection',
+    (reason: unknown, promise: Promise<unknown>) => {
+      // Convert reason to Error object if it isn't already
+      const error =
+        reason instanceof Error ? reason : new Error(String(reason));
+
+      console.error('[Middleware] Unhandled Rejection:', error.message);
+      console.error(error.stack);
+      console.error('[Middleware] Promise:', promise);
+
+      // Log to monitoring service if you have one
+      // Example: Sentry.captureException(error);
+
+      // Attempt to recover
+      try {
+        // You could add recovery logic here
+        // For example, reconnecting to databases, clearing caches, etc.
+        console.log(
+          '[Middleware] Attempting recovery from unhandled rejection'
+        );
+      } catch (recoveryError) {
+        console.error('[Middleware] Recovery failed:', recoveryError);
+      }
+
+      // Note: Critical error handling is managed by ApplicationLifecycle
+    }
+  );
+
+  // Handle worker errors in cluster mode
+  if (process.env.WORKER_ROLE) {
+    process.on('error', (error: Error) => {
+      console.error('[Middleware] Worker Error:', error.message);
+      console.error(error.stack);
+      // Don't exit, let the cluster manager handle worker restarts
+    });
+  }
+
+  // Handle MongoDB connection errors
+  process.on('MongoError', (error: Error) => {
+    console.error('[Middleware] MongoDB Error:', error.message);
+    console.error(error.stack);
+    // Don't exit, let the connection retry logic handle it
+  });
+
+  // Handle process warnings
+  process.on('warning', (warning: Error) => {
+    console.warn('[Middleware] Process Warning:', warning.message);
+    console.warn(warning.stack);
+    // Don't exit, just log the warning
+  });
+
+  // Handle process exit
+  process.on('exit', (code: number) => {
+    console.log(`[Middleware] Process exiting with code ${code}`);
+    // Don't prevent exit, but log it
+  });
+
+  // Note: Only one uncaughtException handler should exist
+  // The main handler above already covers TypeScript runtime errors
 
   // Keep SIGTERM and SIGINT handlers commented out to prevent shutdown
   // This is good for your use case

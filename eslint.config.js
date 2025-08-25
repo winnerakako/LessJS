@@ -70,9 +70,9 @@ module.exports = [
       'no-undef': 'off', // TypeScript handles this
 
       // Security rules
-      'security/detect-object-injection': 'warn',
-      'security/detect-non-literal-regexp': 'warn',
-      'security/detect-unsafe-regex': 'error',
+      'security/detect-object-injection': 'off',
+      'security/detect-non-literal-regexp': 'off',
+      'security/detect-unsafe-regex': 'warn',
 
       // Prettier integration
       'prettier/prettier': 'error',

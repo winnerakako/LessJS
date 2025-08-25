@@ -1,0 +1,255 @@
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)
+C:\USERS\USER\DOCUMENTS\DEV\LESSJS\V3\NODE_MODULES\.BIN\TS-NODE.CMD:1
+@ECHO off
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\ProcessContainer.js:292:27
+    at wrapper (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\waterfall.js:96:20)
+    at C:\Users\USER\Documents\dev\lessJs\v3\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\USER\Documents\dev\lessJs\v3\node_modules\pm2\lib\Utility.js:186:13)

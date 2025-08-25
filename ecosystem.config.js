@@ -1,0 +1,88 @@
+const { LessConfig } = require('./less-config.ts');
+
+module.exports = {
+  apps: [
+    {
+      // Development - TypeScript with hot reload
+      name: 'lessjs-dev',
+      script: 'less-server.ts',
+      interpreter: 'node',
+      interpreter_args:
+        '--require tsconfig-paths/register --require @swc-node/register',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      watch: ['src/', '_lessjs/', 'less-server.ts', 'less-config.ts'],
+      watch_delay: 1000,
+      ignore_watch: ['node_modules', 'dist', 'logs', '.git', '*.log', '*.md'],
+      max_memory_restart: '200M',
+      env: {
+        NODE_ENV: 'development',
+        PORT: LessConfig.port,
+        HOST: LessConfig.host,
+      },
+      error_file: './logs/pm2/dev-error.log',
+      out_file: './logs/pm2/dev-out.log',
+      log_file: './logs/pm2/dev-combined.log',
+      time: true,
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+      kill_timeout: 5000,
+      listen_timeout: 3000,
+    },
+    {
+      // Production - Compiled JavaScript, clustered
+      name: 'lessjs-prod',
+      script: './dist/less-server.js',
+      node_args: '--require module-alias/register',
+      instances: 'max' - 1,
+      exec_mode: 'cluster',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '500M',
+      env_production: {
+        NODE_ENV: 'production',
+        PORT: LessConfig.port,
+        HOST: LessConfig.host,
+      },
+      error_file: './logs/pm2/prod-error.log',
+      out_file: './logs/pm2/prod-out.log',
+      log_file: './logs/pm2/prod-combined.log',
+      time: true,
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+      kill_timeout: 30000,
+      listen_timeout: 10000,
+      restart_delay: 2000,
+      min_uptime: '10s',
+      max_restarts: 5,
+    },
+    {
+      // Staging - Compiled JavaScript, single instance for testing
+      name: 'lessjs-staging',
+      script: './dist/less-server.js',
+      node_args: '--require module-alias/register',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '300M',
+      env_staging: {
+        NODE_ENV: 'staging',
+        PORT: LessConfig.port + 1, // Staging runs on port + 1
+        HOST: LessConfig.host,
+      },
+      error_file: './logs/pm2/staging-error.log',
+      out_file: './logs/pm2/staging-out.log',
+      log_file: './logs/pm2/staging-combined.log',
+      time: true,
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+      kill_timeout: 15000,
+      listen_timeout: 5000,
+      restart_delay: 1000,
+      min_uptime: '5s',
+      max_restarts: 3,
+    },
+  ],
+};
