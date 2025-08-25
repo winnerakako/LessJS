@@ -1,16 +1,7 @@
-import dotenv from 'dotenv';
-import path from 'path';
-
-import { SecurityConfig } from './_lessjs/types/security.config';
-
-// Load environment variables depending on the NODE_ENV value
-if (process.env.NODE_ENV === 'production') {
-  dotenv.config({ path: path.resolve(__dirname, '.env') });
-} else if (process.env.NODE_ENV === 'staging') {
-  dotenv.config({ path: path.resolve(__dirname, '.env.staging') });
-} else {
-  dotenv.config({ path: path.resolve(__dirname, '.env.dev') });
-}
+// Load environment variables using unified loader
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { loadEnvironment } = require('./scripts/env-loader');
+loadEnvironment();
 
 const ALLOWED_ORIGINS: string[] = [
   'https://yourdomain.com',
@@ -150,5 +141,5 @@ export const LessConfig = {
       enabled: ENABLE_DEBUG,
       logRequests: true,
     },
-  } as SecurityConfig,
+  },
 };

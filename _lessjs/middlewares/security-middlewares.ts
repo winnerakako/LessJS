@@ -348,7 +348,7 @@ const sanitizeInput = (
       return keys.reduce<Record<string, any>>((acc, key) => {
         // Sanitize the key itself
         const sanitizedKey = typeof key === 'string' ? xss(key) : key;
-        // eslint-disable-next-line security/detect-object-injection
+
         acc[sanitizedKey] = sanitize(data[key], depth + 1);
         return acc;
       }, {});
@@ -461,12 +461,8 @@ export const SecurityMiddlewares = (app: Application): void => {
         Object.keys(sanitized).forEach((key) => {
           const lowerKey = key.toLowerCase();
           if (sensitiveFields.some((field) => lowerKey.includes(field))) {
-            // eslint-disable-next-line security/detect-object-injection
             sanitized[key] = '[REDACTED]';
-
-            // eslint-disable-next-line security/detect-object-injection
           } else if (typeof sanitized[key] === 'object') {
-            // eslint-disable-next-line security/detect-object-injection
             sanitized[key] = sanitizeForLogging(sanitized[key]);
           }
         });

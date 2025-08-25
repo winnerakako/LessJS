@@ -16,8 +16,9 @@ module.exports = [
       'dist/**',
       'node_modules/**',
       '*.d.ts',
-      'config/**',
-      'scripts/**',
+      '.less-build-script.js',
+      '.prettierrc.js',
+      'eslint.config.js',
     ],
   },
 
@@ -44,6 +45,13 @@ module.exports = [
     rules: {
       // TypeScript-specific rules
       ...tsEslint.configs.recommended.rules,
+      // '@typescript-eslint/no-unused-vars': [
+      //   'error',
+      //   {
+      //     argsIgnorePattern: '^_',
+      //     varsIgnorePattern: '^_',
+      //   },
+      // ],
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/explicit-function-return-type': 'off',

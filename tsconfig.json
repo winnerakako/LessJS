@@ -1,31 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "strict": true,
-    "strictPropertyInitialization": false,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "dist",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "sourceMap": true,
-    "removeComments": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "typeRoots": ["./node_modules/@types", "_lessjs/types", "./src/shared/types"],
-    "baseUrl": ".",
-    "paths": {
-      "*": ["node_modules/*", "_lessjs/types/*"],
-      "_lessjs": ["./_lessjs"],
-      "_lessjs/*": ["./_lessjs/*"],
-      "src/*": ["./src/*"]
-    }
-  },
-  "include": ["./**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "extends": "./config/tsconfig.json"
 }
