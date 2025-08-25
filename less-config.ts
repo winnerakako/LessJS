@@ -32,11 +32,10 @@ const RATE_LIMIT_MAX: number = 100;
 const RATE_LIMIT_WINDOW_MS: number = parseInt((60 * 1000).toString(), 10); // 1 minute
 const LOGGING_FORMAT: string = 'dev';
 const CLUSTER_MODE: boolean = true;
-const VERSION: string = 'v1';
-const API_PREFIX: string = '/api';
-const PORT: number = 8000;
-const HOST: string = '0.0.0.0';
-const TIMEZONE: string = 'Africa/Lagos';
+const API_PREFIX: string = process.env.API_PREFIX || '/api';
+const PORT: number = process.env.PORT ? parseInt(process.env.PORT) : 8000;
+const HOST: string = process.env.HOST || '0.0.0.0';
+const TIMEZONE: string = process.env.TZ || 'Africa/Lagos';
 
 const ENABLE_HTTPS_REDIRECT: boolean = false; // Temporarily disabled for testing
 const ENABLE_CORS: boolean = true;
@@ -51,11 +50,10 @@ const ENABLE_RATE_LIMIT: boolean = true;
 const ENABLE_HELMET: boolean = true;
 
 export const LessConfig = {
-  port: process.env.PORT ? parseInt(process.env.PORT) : PORT,
-  timezone: process.env.TZ || TIMEZONE,
-  host: process.env.HOST || HOST,
-  apiPrefix: process.env.API_PREFIX || API_PREFIX,
-  appVersion: process.env.APP_VERSION || VERSION,
+  port: PORT,
+  timezone: TIMEZONE,
+  host: HOST,
+  apiPrefix: API_PREFIX,
   enableCluster: CLUSTER_MODE,
 
   securityConfig: {

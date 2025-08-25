@@ -1,5 +1,10 @@
-const { LessConfig } = require('./less-config.ts');
 const os = require('os');
+
+// Simple config values for PM2 (avoids TypeScript dependency issues)
+const PM2_CONFIG = {
+  port: process.env.PORT ? parseInt(process.env.PORT) : 8000,
+  host: process.env.HOST || '0.0.0.0',
+};
 
 module.exports = {
   apps: [
@@ -19,8 +24,8 @@ module.exports = {
       max_memory_restart: '200M',
       env: {
         NODE_ENV: 'development',
-        PORT: LessConfig.port,
-        HOST: LessConfig.host,
+        PORT: PM2_CONFIG.port,
+        HOST: PM2_CONFIG.host,
       },
       error_file: './logs/pm2/dev-error.log',
       out_file: './logs/pm2/dev-out.log',
@@ -43,8 +48,8 @@ module.exports = {
       max_memory_restart: '500M',
       env_production: {
         NODE_ENV: 'production',
-        PORT: LessConfig.port,
-        HOST: LessConfig.host,
+        PORT: PM2_CONFIG.port,
+        HOST: PM2_CONFIG.host,
       },
       error_file: './logs/pm2/prod-error.log',
       out_file: './logs/pm2/prod-out.log',
@@ -70,8 +75,8 @@ module.exports = {
       max_memory_restart: '300M',
       env_staging: {
         NODE_ENV: 'staging',
-        PORT: LessConfig.port + 1, // Staging runs on port + 1
-        HOST: LessConfig.host,
+        PORT: PM2_CONFIG.port + 1, // Staging runs on port + 1
+        HOST: PM2_CONFIG.host,
       },
       error_file: './logs/pm2/staging-error.log',
       out_file: './logs/pm2/staging-out.log',
