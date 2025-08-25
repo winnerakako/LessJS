@@ -3,7 +3,7 @@
   "ext": "ts,js,json",
   "ignore": ["node_modules/", "dist/", "logs/", "*.log", "*.md", ".git/"],
   "delay": "1000",
-  "exec": "node -r tsconfig-paths/register -r @swc-node/register --project config/tsconfig.json less-server.ts",
+  "exec": "node -r tsconfig-paths/register -r @swc-node/register less-server.ts",
   "env": {
     "NODE_ENV": "development"
   },
