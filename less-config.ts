@@ -14,6 +14,7 @@ const ALLOWED_ORIGINS: string[] = [
 const ALLOWED_HOSTS: string[] = [
   'yourdomain.com',
   'www.yourdomain.com',
+  'yourdomain.com',
   'api.yourdomain.com',
   'localhost',
   '127.0.0.1',
